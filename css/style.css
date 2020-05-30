@@ -2,30 +2,107 @@ body{
   margin:0;
   padding:0;
 }
-#header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  background: #F23492;
-}
 #header-img{
-  width:70px;
-  cursor: pointer;
+  width: 70px;
 }
-#nav-bar .nav-link{
-  display: inline-block;
-  padding: 0px 20px;
+#nav-bar{
+  display: flex;
+  background: #F254;
 }
-.nav-link,a{
-  text-decoration: none;
-  color:#fff;
+#nav-bar li{
   list-style: none;
+  padding:30px;
+}
+#nav-bar li a{
+  text-decoration: none;
+  padding: 20px 40px;
+  color:#fff;
+  text-align: center;
+}
+.about{
+  width: 100%;
+  background: #EFEBE9;
+  margin-top:-20px;
+  padding:0;
+  min-height:300px;
+}
+.container h1 {
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.container p{
+  text-align: center;
+  margin : 20px;
+  word-spacing: 2px;
+  color:#424242;
+}
+.product{
+  background:#03A9F4;
+  margin-top: -20px;
+  min-height: 300px;
+}
+.product h1{
+  padding-top: 20px;
+  text-align: center;
+  color:#FFF;
 }
 .flex-container{
-   display: flex;
-   align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
 }
-.flex-container > div{
-  margin:10px
+.main{
+  flex: 60%;
+  padding-left: 10px;
+}
+.main h4{
+  color: #FFF;
+}
+.main p{
+  color: #FFF;
+  line-height: 1em;
+  word-spacing: 2px;
+}
+.side{
+  flex:30%;
+  padding-bottom: 20px;
+}
+.side h4{
+  text-align: left;
+  color:#FFF;
+}
+.news-letter{
+  background: #fff8e1;
+  margin-top:-20px;
+  min-height: 190px;
+}
+.container  >  form{
+   text-align: center;
+   padding-top: 20px;
+}
+
+#email{
+  width: 50%;
+  height : 30px;
+}
+.btn{
+  border:0;
+  height:35px;
+  background:#e65100;
+}
+.contact{
+  margin:-20px;
+}
+.container h1{
+  text-align: center;
+}
+.container p{
+  font-weight: 300;
+  color:#757575;
+}
+.footer{
+  text-align: center;
+  padding-top: 20px;
+  color:#323232;
 }
